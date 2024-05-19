@@ -29,3 +29,13 @@ print(str4.replace("v","B")) # Replace all occurances
 print(str3.find("tt")) # return 1st index of 1st occurance. If find(1) else (-1)
 print(str3.count("t")) # Count thee occcurnce of substr in string
 
+
+
+# WAP to input user's first name & print the length
+first=input("Enter the first name:")
+print("Total length of your first name: ",len(first))
+
+
+# WAP to find the occurance of $ in a string
+str5="I am vishalpla$@gmail.com"
+print("Firts occurance and  index number: ",str5.find("$"))

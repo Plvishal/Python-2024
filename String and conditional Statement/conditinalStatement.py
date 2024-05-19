@@ -33,3 +33,12 @@ elif(80>=mark and mark>=70):
     print("Grade C")
 else:
     print("Grade D")
+
+
+
+# Write a profram to check if a number entered ther user is odd or even in python
+num = int(input("Enter a number:"))
+if num % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
